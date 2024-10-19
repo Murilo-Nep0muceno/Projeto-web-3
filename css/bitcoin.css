@@ -1,0 +1,50 @@
+#container-bitcoin{
+    display: flex;
+    flex-direction: column;   
+    max-width:  1400px;
+    margin: 0 auto;
+    gap: 1rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
+
+#bitcoin-title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+#bitcoin-text{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+
+}
+
+#bitcoin-text div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+#bitcoin-satoshi img{
+    width: 350px;
+    border-radius: 4px;
+}
+
+#bitcoin-article a{
+    margin-top: 2rem;
+    color: initial;
+
+}
+
+#bitcoin-text p{
+    max-width: 80ch;
+}
+
+#bitcoin-img video{
+    width: 650px;
+    border-radius: 4px;
+}
